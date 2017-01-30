@@ -1,0 +1,12 @@
+{
+  "name": "Google Datastudio Auto Refresh",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Google Datastudio Auto Refresh kun",
+  "content_scripts": [
+    {
+      "matches": ["https://datastudio.google.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
